@@ -1,0 +1,19 @@
+spring:
+  application:
+    name: application
+
+mqtt:
+  broker:
+    url: ${MQTT_URL}
+
+management:
+  endpoints:
+    web:
+      exposure:
+        include: mappings
+
+server:
+  port: 8081
+  tomcat:
+    mbeanregistry:
+      enabled: true

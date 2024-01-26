@@ -1,4 +1,4 @@
-package de.mqtt;
+package de.application;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
@@ -6,9 +6,10 @@ import org.springframework.boot.context.properties.ConfigurationPropertiesScan;
 
 @SpringBootApplication
 @ConfigurationPropertiesScan
-public class MqttMosquittoTest {
+public class application {
 
     public static void main(String[] args) {
-        SpringApplication.run(MqttMosquittoTest.class, args);
+        SpringApplication.run(application.class, args);
     }
+
 }
