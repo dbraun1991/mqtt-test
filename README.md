@@ -89,6 +89,7 @@ Hopefully you faced no problems until here.
 Everything runs fine and 'as expected'.
 
 
+
 ### Using the test-environment including Testcontainers
 
 #### 1) Start your docker-environment for the testcontainers
@@ -123,6 +124,14 @@ Caused by: java.io.EOFException: null
 Logs are given in:
 - `logs/infrastructure/mqtt/foo`
 
+
+
+### Fixing the MQTT mosquitto in this Testcontainers-setup
+
+Change the `DockerImageName.parse("eclipse-mosquitto:2.0.18"))`
+in the `applicationTest`-class according to your local or published new mosquitto container.
+
+
 ---
 
 ## Authors and acknowledgment
@@ -130,6 +139,3 @@ Logs are given in:
 Technical & Maintenance:
 - dbraun1991 (Maintainer)
 
-
-Informed via Issues:
-- 
