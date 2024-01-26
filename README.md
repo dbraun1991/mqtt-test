@@ -1,4 +1,4 @@
-# Mqtt-Mosquitto
+# MQTT Mosquitto-Test
 
 This REPO offers a testing scenario, which connects to a MQTT Mosquitto Client using testcontainers.
 
