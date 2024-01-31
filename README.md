@@ -14,14 +14,20 @@ Why is this REPO needed?
 
 Tested on:
 
-- Hardware
-  - MacBook Pro
+### Hardware
+
+1) MacBook Pro
     - Processor: Apple M2 Pro
     - RAM: 32 GB
     - macOS: 14.2.1
 
+2) Desktop PC (only Test with Testcontainers)
+   - Prozessor:	AMD Ryzen 5 2600X Six-Core Processor with 3.60 GHz
+   - RAM: 16 GB
+   - Windows: 11 Home
+   - Systemtype: 64-Bit OS/Prozessor
 
-- Software
+### Software
   * **Java OpenJDK** v21
   * **Spring Boot** v3.2.x
   * **Maven** v3.9.x
